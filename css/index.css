@@ -69,8 +69,39 @@ p {
 .container {
     width: 800px;
     margin: 0 auto;
+    padding: 2%;
 }
 
+header {
+    display: flex;
+}
+header .logo{
+	display: flex;
+    justify-content: flex-start;
+    padding: 2%;
+}
+
+header nav{
+	width: 86%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 2%;
+    font-size: 14px;
+}
+
+header nav a{
+	display: flex; 
+	text-decoration: none;
+	color:black;
+	padding: 10px;
+}
+
+.top-img{
+    display: flex;
+    margin: 30px 10px 30px 10px;
+    width: 100%;
+}
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -101,11 +132,101 @@ p {
     justify-content: space-evenly;
 }
 
-.middle-content .boxes .box {
+.middle-content .boxes .box1 {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
+    background-color: teal;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.middle-content .boxes .box2 {
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    background-color: gold;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.middle-content .boxes .box3 {
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    background-color: cadetblue;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.middle-content .boxes .box4 {
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    background-color: coral;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.middle-content .boxes .box5 {
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    background-color: crimson;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.middle-content .boxes .box6 {
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    background-color: forestgreen;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.middle-content .boxes .box7 {
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    background-color: darkorchid;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.middle-content .boxes .box8 {
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    background-color: hotpink;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.middle-content .boxes .box9 {
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    background-color: indigo;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.middle-content .boxes .box10 {
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    background-color: dodgerblue;
     color: white;
     display: flex;
     align-items: center;
@@ -143,4 +264,59 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/* ABOUT CSS----------------------------------------------------------------*/
+
+
+
+.top-content .text-container-about {
+    width: 100%;
+    padding: 0 1%;
+    padding-bottom: 20px;  
+}
+
+.middle-content-about-top {
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
+
+.middle-content-about-bottom {
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+    margin-right: 16%;
+}
+.strategy-how-sect{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+}
+.places-collab-sect{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.middle-content-about-top .strategy-how-sect .strategy-box{
+    width: 30%;
+    display: flex;
+}
+.middle-content-about-bottom .places-collab-sect .places-box{
+    display: flex;
+    flex-wrap: wrap;
+    width: 40%;
+    margin-right: 12%;
+}
+.middle-content-about-bottom .places-collab-sect .collab-box{
+    display: flex;
+    flex-wrap: wrap;
+    width: 40%;
+}
+button{
+    border: 2px solid black;
+}
+
+.bottom-content .text-container-work-together {
+    width: 100%;
+    padding: 0 1%;
+    padding-bottom: 20px;  
 }
